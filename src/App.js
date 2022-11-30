@@ -1,11 +1,14 @@
 import Buttons from './components/buttons';
 import Display from './components/display';
+import Container from './components/container';
 
 function App() {
   return (
     <div className="App">
-      <Display />
-      <Buttons />
+      <Container>  //TODO install styled-components and make container a style
+        <Display />
+        <Buttons />
+      </Container>
     </div>
   );
 }
