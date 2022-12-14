@@ -1,14 +1,16 @@
 import Buttons from './components/buttons';
 import Display from './components/display';
 import Container from './components/container';
+import { Reset } from 'styled-reset';
 
 function App() {
   return (
     <div className="App">
-      <Container>  //TODO install styled-components and make container a style
-        <Display />
-        <Buttons />
-      </Container>
+      <Reset />
+        <Container>        
+          <Display />
+          <Buttons />
+        </Container>
     </div>
   );
 }
